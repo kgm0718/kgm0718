@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi there! 👋
 
-<!--
-**kgm0718/kgm0718** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile!
 
-Here are some ideas to get you started:
+## About Me
+- 🐕 I'm working with my AI assistant **Merry**
+- 🌱 Currently learning about GitHub and OpenClaw
+- 💡 Interested in automation and productivity
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## My Tools
+- **OpenClaw** - My personal AI workspace
+- **Merry** - My AI assistant (🐕)
+- **Kimi K2.5** - AI model
+
+## Goals
+- [x] Set up OpenClaw
+- [x] Connect GitHub
+- [ ] Create awesome projects
+- [ ] Learn more about AI automation
+
+---
+
+*This README was created with the help of Merry! 🐕*
