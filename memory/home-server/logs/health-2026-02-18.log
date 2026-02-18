@@ -1,0 +1,174 @@
+=== Home Server Health Check ===
+Date: Wed Feb 18 17:09:11 KST 2026
+
+🔍 Checking CPU...
+[17:09:12] [OK] CPU usage is 8.24%
+🔍 Checking Memory...
+[17:09:12] [INFO] Memory free: 94%
+🔍 Checking Disk Space...
+[17:09:12] [OK] Disk usage is 5%
+🔍 Checking Services...
+[17:09:12] [CRITICAL] OpenClaw Gateway is NOT running
+[17:09:12] [WARNING] SSH service is not accessible
+
+🩹 Performing self-healing actions...
+[17:09:12] [HEAL] Restarting OpenClaw Gateway...
+[17:09:22] [HEAL] OpenClaw Gateway restart initiated
+
+=== Health Check Summary ===
+[17:09:22] [WARNING] Found 1 issue(s). Check log for details.
+=== Home Server Health Check ===
+Date: Wed Feb 18 17:38:27 KST 2026
+
+🔍 Checking CPU...
+[17:38:27] [OK] CPU usage is 3.63%
+🔍 Checking Memory...
+[17:38:27] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[17:38:27] [OK] Disk usage is 5%
+🔍 Checking Services...
+[17:38:27] [CRITICAL] OpenClaw Gateway is NOT running
+[17:38:27] [WARNING] SSH service is not accessible
+
+🩹 Performing self-healing actions...
+[17:38:27] [HEAL] Restarting OpenClaw Gateway...
+[17:38:41] [HEAL] OpenClaw Gateway restart initiated
+
+=== Health Check Summary ===
+[17:38:41] [WARNING] Found 1 issue(s). Check log for details.
+=== Home Server Health Check ===
+Date: Wed Feb 18 18:08:26 KST 2026
+
+🔍 Checking CPU...
+[18:08:27] [OK] CPU usage is 3.95%
+🔍 Checking Memory...
+[18:08:27] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[18:08:27] [OK] Disk usage is 5%
+🔍 Checking Services...
+[18:08:27] [OK] OpenClaw Gateway is running
+[18:08:27] [WARNING] SSH service is not accessible
+
+=== Health Check Summary ===
+[18:08:27] [OK] All systems healthy! No issues found.
+=== Home Server Health Check ===
+Date: Wed Feb 18 18:38:25 KST 2026
+
+🔍 Checking CPU...
+[18:38:26] [OK] CPU usage is 3.63%
+🔍 Checking Memory...
+[18:38:26] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[18:38:26] [OK] Disk usage is 5%
+🔍 Checking Services...
+[18:38:26] [CRITICAL] OpenClaw Gateway is NOT running
+[18:38:26] [WARNING] SSH service is not accessible
+
+🩹 Performing self-healing actions...
+[18:38:26] [HEAL] Restarting OpenClaw Gateway...
+[18:38:40] [HEAL] OpenClaw Gateway restart initiated
+
+=== Health Check Summary ===
+[18:38:40] [WARNING] Found 1 issue(s). Check log for details.
+=== Home Server Health Check ===
+Date: Wed Feb 18 19:08:27 KST 2026
+
+🔍 Checking CPU...
+[19:08:27] [OK] CPU usage is 3.97%
+🔍 Checking Memory...
+[19:08:27] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[19:08:27] [OK] Disk usage is 5%
+🔍 Checking Services...
+[19:08:27] [OK] OpenClaw Gateway is running
+[19:08:27] [WARNING] SSH service is not accessible
+
+=== Health Check Summary ===
+[19:08:27] [OK] All systems healthy! No issues found.
+=== Home Server Health Check ===
+Date: Wed Feb 18 19:42:53 KST 2026
+
+🔍 Checking CPU...
+[19:42:53] [OK] CPU usage is 6.64%
+🔍 Checking Memory...
+[19:42:53] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[19:42:53] [OK] Disk usage is 5%
+🔍 Checking Services...
+[19:42:53] [CRITICAL] OpenClaw Gateway is NOT running
+[19:42:53] [WARNING] SSH service is not accessible
+
+🩹 Performing self-healing actions...
+[19:42:53] [HEAL] Restarting OpenClaw Gateway...
+[19:43:06] [HEAL] OpenClaw Gateway restart initiated
+
+=== Health Check Summary ===
+[19:43:06] [WARNING] Found 1 issue(s). Check log for details.
+=== Home Server Health Check ===
+Date: Wed Feb 18 20:16:03 KST 2026
+
+🔍 Checking CPU...
+[20:16:03] [OK] CPU usage is 3.85%
+🔍 Checking Memory...
+[20:16:03] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[20:16:03] [OK] Disk usage is 5%
+🔍 Checking Services...
+[20:16:03] [OK] OpenClaw Gateway is running
+[20:16:03] [WARNING] SSH service is not accessible
+
+=== Health Check Summary ===
+[20:16:03] [OK] All systems healthy! No issues found.
+=== Home Server Health Check ===
+Date: Wed Feb 18 20:48:33 KST 2026
+
+🔍 Checking CPU...
+[20:48:33] [OK] CPU usage is 10.44%
+🔍 Checking Memory...
+[20:48:33] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[20:48:33] [OK] Disk usage is 5%
+🔍 Checking Services...
+[20:48:33] [CRITICAL] OpenClaw Gateway is NOT running
+[20:48:33] [WARNING] SSH service is not accessible
+
+🩹 Performing self-healing actions...
+[20:48:33] [HEAL] Restarting OpenClaw Gateway...
+[20:48:46] [HEAL] OpenClaw Gateway restart initiated
+
+=== Health Check Summary ===
+[20:48:46] [WARNING] Found 1 issue(s). Check log for details.
+=== Home Server Health Check ===
+Date: Wed Feb 18 21:11:34 KST 2026
+
+🔍 Checking CPU...
+[21:11:34] [OK] CPU usage is 3.3%
+🔍 Checking Memory...
+[21:11:34] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[21:11:34] [OK] Disk usage is 5%
+🔍 Checking Services...
+[21:11:34] [CRITICAL] OpenClaw Gateway is NOT running
+[21:11:35] [WARNING] SSH service is not accessible
+
+🩹 Performing self-healing actions...
+[21:11:35] [HEAL] Restarting OpenClaw Gateway...
+[21:11:46] [HEAL] OpenClaw Gateway restart initiated
+
+=== Health Check Summary ===
+[21:11:46] [WARNING] Found 1 issue(s). Check log for details.
+=== Home Server Health Check ===
+Date: Wed Feb 18 21:38:29 KST 2026
+
+🔍 Checking CPU...
+[21:38:29] [OK] CPU usage is 1.82%
+🔍 Checking Memory...
+[21:38:29] [INFO] Memory free: 96%
+🔍 Checking Disk Space...
+[21:38:29] [OK] Disk usage is 5%
+🔍 Checking Services...
+[21:38:29] [OK] OpenClaw Gateway is running
+[21:38:29] [WARNING] SSH service is not accessible
+
+=== Health Check Summary ===
+[21:38:29] [OK] All systems healthy! No issues found.

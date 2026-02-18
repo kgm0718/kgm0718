@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "schedule": {
+    "time": "08:00",
+    "timezone": "Asia/Seoul",
+    "days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  },
+  "delivery": {
+    "channel": "telegram",
+    "target": "5302430044"
+  },
+  "components": {
+    "weather": {
+      "enabled": true,
+      "location": "Suncheon"
+    },
+    "calendar": {
+      "enabled": true,
+      "lookahead_days": 1
+    },
+    "tasks": {
+      "enabled": true,
+      "sources": ["todoist", "local"]
+    },
+    "news": {
+      "enabled": true,
+      "source": "rss",
+      "feeds": [
+        "https://www.yna.co.kr/rss/it-science.xml",
+        "https://techcrunch.com/feed/",
+        "https://www.reddit.com/r/technology/.rss",
+        "https://news.ycombinator.com/rss",
+        "https://dev.to/feed"
+      ],
+      "max_items": 5
+    },
+    "recommendations": {
+      "enabled": true
+    }
+  }
+}

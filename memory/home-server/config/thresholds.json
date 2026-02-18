@@ -1,0 +1,49 @@
+{
+  "thresholds": {
+    "cpu": {
+      "warning": 70,
+      "critical": 85,
+      "duration_minutes": 5
+    },
+    "memory": {
+      "warning": 80,
+      "critical": 90
+    },
+    "disk": {
+      "warning": 20,
+      "critical": 10,
+      "paths": ["/", "/System/Volumes/Data"]
+    },
+    "load": {
+      "warning": 4,
+      "critical": 8
+    }
+  },
+  "services": [
+    {
+      "name": "openclaw-gateway",
+      "check_command": "pgrep -f openclaw-gateway",
+      "restart_command": "openclaw gateway restart",
+      "auto_heal": true
+    },
+    {
+      "name": "ssh",
+      "check_command": "sudo lsof -i :22 | grep LISTEN",
+      "restart_command": "sudo launchctl load /System/Library/LaunchDaemons/ssh.plist",
+      "auto_heal": false
+    }
+  ],
+  "auto_heal": {
+    "enabled": true,
+    "actions": {
+      "clear_logs": true,
+      "kill_zombies": true,
+      "restart_services": true
+    }
+  },
+  "notifications": {
+    "telegram": true,
+    "daily_report": true,
+    "critical_only": false
+  }
+}
